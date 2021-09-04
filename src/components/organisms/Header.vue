@@ -25,7 +25,6 @@ header{
     align-items: center;
     justify-content: space-between;
     .links{
-       // flex: 1 1 auto;
         flex: 5;
     }
     .user{
