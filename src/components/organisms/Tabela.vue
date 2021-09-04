@@ -76,10 +76,6 @@
                    <span>{{vmargem.valor.toLocaleString("pt-BR", { minimumFractionDigits: 2 , style: 'currency', currency: 'BRL' })}}</span>
                    <span>{{vmargem.porcento}}%</span>
                   </div>
-                  <!-- <div class="valor-margem">
-                    <span>R$ 199,00</span>
-                    <span>50%</span>
-                  </div> -->
                 </div>
               </div>
               <div class="b-precoFinal">
@@ -89,22 +85,8 @@
                 </div>
               </div>
             </div>
-
-           
           </div>
-
-          <div class="footer-table">
-            <div class="resultados">
-              <span>Monstrando resultados 1 até 50 entre 3331 pedidos</span>
-            </div>
-            <div class="paginacao">
-              <div class="btns"><i class="fas fa-chevron-left"></i></div>
-              <div class="btns"><span>1</span></div>
-              <div class="btns"><span>2</span></div>
-              <div class="btns"><span>3</span></div>
-              <div class="btns"><i class="fas fa-chevron-right"></i></div>
-            </div>
-          </div>
+         <FooterTable/>
         </div>
       </div>
     </div>
@@ -112,8 +94,12 @@
 </template>
 
 <script>
+import {FooterTable} from '@/components/molecules'
 export default {
-  props:['produtos']
+  props:['produtos'],
+  components:{
+    FooterTable
+  }
 };
 </script>
 
@@ -131,6 +117,10 @@ $greybtn: #f1f1f1;
   max-width: 1450px;
   margin: 0 auto;
   position: relative;
+
+  img{
+    cursor: pointer;
+  }
   .conteudo-lista {
     margin-top: 50px;
 
@@ -285,40 +275,6 @@ $greybtn: #f1f1f1;
               display: flex;
               justify-content: space-between;
               align-items: center;
-            }
-          }
-        }
-      }
-
-      .footer-table {
-        height: 10vh;
-
-        padding: 0.1rem 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        -webkit-box-shadow: 2px -8px 13px -10px rgba(0, 0, 0, 0.8);
-        box-shadow: 2px -8px 13px -10px rgba(0, 0, 0, 0.8);
-
-        .resultados {
-          span {
-            font-size: 13px;
-          }
-        }
-
-        .paginacao {
-          display: flex;
-
-          .btns {
-            padding: 0.5rem 1rem;
-            border: 1px solid $grey5;
-            border-radius: 5px;
-            cursor: pointer;
-
-            &:hover {
-              background: $grey3;
-              color: white;
             }
           }
         }
