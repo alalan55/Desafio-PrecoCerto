@@ -1,5 +1,5 @@
 <template>
-<div class="nav-link">
+<div class="nav-links">
     <slot name="after"/>
     <router-link :to="link" class="link">{{name}}</router-link>
     <slot name="before"/>
@@ -17,7 +17,7 @@
 </script>
 
 <style lang="scss" scoped>
-.nav-link{
+.nav-links{
     font-size: 13px;
     font-weight: 500;
     margin: 0 .6rem;
