@@ -99,7 +99,7 @@ export default {
   props:['produtos'],
   components:{
     FooterTable
-  }
+  },
 };
 </script>
 

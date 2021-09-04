@@ -14,9 +14,6 @@ import{Header, Filtros, Tabela} from '@/components/organisms'
             Header,
             Filtros,
             Tabela
-        },
-        created(){
-            console.log('vim do pai', this.produtos)
         }
     }
 </script>

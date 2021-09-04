@@ -4,37 +4,37 @@
 
     <div class="links">
 
-      <NavLink link="/" name="DASHBOARD">
+      <NavLink  name="DASHBOARD">
         <template v-slot:after>
           <i class="fas fa-chart-line"></i>
         </template>
       </NavLink>
 
-      <NavLink link="/" name="GERENCIAR">
+      <NavLink  name="GERENCIAR">
         <template v-slot:before>
           <i class="fas fa-chevron-down"></i>
         </template>
       </NavLink>
 
-      <NavLink link="/" name="OTIMIZAR">
+      <NavLink  name="OTIMIZAR">
         <template v-slot:before>
           <i class="fas fa-chevron-down"></i>
         </template>
       </NavLink>
 
-      <NavLink link="/" name="SIMULAR">
+      <NavLink  name="SIMULAR">
         <template v-slot:before>
           <i class="fas fa-chevron-down"></i>
         </template>
       </NavLink>
 
-      <NavLink link="/" name="HISTÓRICOS">
+      <NavLink  name="HISTÓRICOS">
         <template v-slot:before>
           <i class="fas fa-chevron-down"></i>
         </template>
       </NavLink>
 
-      <NavLink link="/" name="CONFIGURAR">
+      <NavLink  name="CONFIGURAR">
         <template v-slot:before>
           <i class="fas fa-chevron-down"></i>
         </template>
