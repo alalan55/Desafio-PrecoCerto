@@ -125,6 +125,27 @@ let produtos = [
         ],
         precoFinal: 400
     },
+    {
+        id: 7,
+        codigo: 'AJJJJJ',
+        produto: 'Algum outro produto usado para teste',
+        custo: 20.50,
+        frete: [
+            20.88,
+            99.04
+        ],
+        margem: [
+            {
+            valor: 90.05,
+            porcento: 30
+            },
+            {
+            valor: 120.05,
+            porcento: 26
+            }
+        ],
+        precoFinal: 400
+    },
 ]
 
 export {
