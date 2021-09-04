@@ -88,7 +88,6 @@ $grey6: #CACACA;
     }
   }
   .bloco-2 {
-    // border: 1px solid red;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -169,8 +168,6 @@ $grey6: #CACACA;
     }
 
     .informacoes-pis-bloco2 {
-      // border: 1px solid red;
-      //  text-align: right;
       position: absolute;
       bottom: -40px;
       right: 0;
