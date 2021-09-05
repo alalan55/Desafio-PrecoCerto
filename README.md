@@ -1,4 +1,4 @@
-# desafio-precocerto
+# Desafio PrecoCerto
 
 Desafio criado para a empresa PrecoCerto, cujo desafio era refazer um layout pré definido, utilizando VueJs.
 
